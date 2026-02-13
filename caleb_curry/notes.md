@@ -1,0 +1,15 @@
+- Elixir was designed for building scalable and resilient application
+- Elixir is a functional programming language
+- On arch linux `sudo pacman -S elixir`
+- You can type `iex` for live interactive Elixir
+- You can concatenate string by doing this `"hello" <> " world"`
+- Mix is the build tool in elixir
+- To create a new project with Mix -> `mix new example`
+- To compile -> `mix compile`
+- To run -> `iex -S mix` and then for example call the function `Example.hello`
+- Alternative run -> `mix run -e "Example.hello"` -> the return value will not be automatically printed though.
+- To Print do `IO.puts()`
+- You can define on application level what function should be executed by default on `mix.exs`
+- Hex is elixir's package manager.
+- To get started do `mix local.hex`
+- To install dependencies go to `mix.exs`, paste the version on deps and do `mix deps.get`
